@@ -3,6 +3,7 @@
 * Text to speech, using Responsive Voice library
 * Built with Semantic-UI
 
+⚠️ Only works on web, iOS needs trigger event for Speech Synthesis ⚠️ 
 
 #### Tech used: 
 - JavaScript
