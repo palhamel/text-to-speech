@@ -4,26 +4,42 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+  <link rel="stylesheet" href="style.css">
 
   <title>Text to Speech</title>
 </head>
 
 <body>
-  <div>
+  <div class="pushable">
+    <div class="ui inverted middle aligned center aligned segment">
+      <div class="ui container">
+        <div class="ui text container">
+          <div class="ui divider"></div>
+          <i class="assistive listening systems icon huge"></i>
+          <h1 class="ui inverted header">Text to speech, using Responsive Voice library</h1>
+          <div class="ui icon">
+            <i class="notched circle loading icon large"></i>
+            <h2 class="ui message inverted left">Ready..Please input text to be spoken (english)</h2>
+          </div>
+          <textarea class="ui container input" style="color:white; font-size: x-large;" id="txt" rows="10" cols="40" name="text" ></textarea>
+          <input class="ui fluid large violet submit button" type="button" onclick="textSpeak()" value="speak" >
+          <div class="ui divider"></div>
+        </div>
+      </div>
+  </div>
 
 
-  </div class="ui container">
-  <h3>Very simple text to speech using responsivevoice library</h3>
-  <h3>Please input text to be spoken</h3>
-  <textarea id="txt" rows="10" cols="40" name="text" ></textarea>
-	<input type="button" onclick="textSpeak()" value="submit">
 
-	<script src="./script.js">
-		// function textSpeak(){
-		// 	var text = document.getElementById("txt").value;
-		// 	responsiveVoice.speak(text);
-		// }
-	</script>
+
+  </div>
+
+  <script src="./script.js">
+    // function textSpeak(){
+    // 	var text = document.getElementById("txt").value;
+    // 	responsiveVoice.speak(text);
+    // }
+  </script>
+
   <script src="https://code.responsivevoice.org/responsivevoice.js?key=Vqjfy0P7"></script>
 
   
