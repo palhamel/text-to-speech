@@ -11,9 +11,9 @@
 
 
 ## View it live
-https://zen-lamarr-e99afc.netlify.app/
+https://text-2-speech.netlify.app/
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/303e0902-ca3b-4938-a17e-bd2f05bbf017/deploy-status)](https://app.netlify.com/sites/zen-lamarr-e99afc/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f6f3855d-3870-4adb-a17e-091f6e2a8924/deploy-status)](https://app.netlify.com/sites/text-2-speech/deploys)
 
 
 
